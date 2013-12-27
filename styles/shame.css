@@ -1,0 +1,171 @@
+/**
+* For the brave souls who get this far: You are the chosen ones,
+* the valiant knights of html and css who toil away, without rest, fixing this most awful code. 
+* To you, true saviors, kings of men, or queens of women, I say this: never gonna give you up, 
+* never gonna let you down, never gonna run around and desert you. Never gonna make you cry,
+* never gonna say goodbye. Never gonna tell a lie and hurt you.
+* -------------------------------------------------------------------------------------
+* ----- Hahaha the internet is a funny place. -----------------------------------------
+* ----- I read the above quote and thought it was perfect for this file ---------------
+* -------------------------------------------------------------------------------------
+*
+* Since IE7 is SUCH a pain in the ass I have thrown together this aweful aweful......
+* aweful shame file... if there is something that is not working in IE7 put it here
+* and all will be forgiven... There is no judgement here.. hell some people don't even need 
+* to know about this dirty little secret. This is between you and me, I won't tell if you don't.
+* YOU BETTER NOT TELL!
+*/
+/* --- [ Header Area ] ---- */
+/* ------------------------------------------------------------------------
+ * this is a very crapy ie7 fix
+ * for some reason with this width and padding left set like the defaults
+ * the header breaks..... wtf ie.. wtf!!!
+ * ------------------------------------------------------------------------
+ */
+.header-area .container .columns.twelve {
+  width: 350px !ie;
+}
+.header-area .container .offset-by-six {
+  padding-left: 370px !ie;
+}
+/* -------------------------------------------------------------------------- */
+.header-area {
+  height: 75px !ie;
+  /* ie7 fix */
+
+}
+/* --- [ Phone Number ] --- */
+.phone-number i {
+  top: 1px !ie;
+  /* ie7 fix */
+
+}
+/* -- [ Search ] -- */
+.search-bar {
+  padding: 2px 0 7px 10px\9;
+  /* ie7/8 fix */
+
+}
+.search-btn {
+  font-size: 0\9;
+  /* ie7/8 fix */
+
+}
+.main-nav a {
+  padding: 15px 5px;
+}
+a.main-active,
+.main-nav a:hover {
+  padding: 12px 5px 19px 5px;
+}
+.side-nav.columns.five {
+  width: 275px !ie;
+}
+.pull-quote-area {
+  padding: 0 0 0 10px;
+}
+/* --- [ Side Nav ] --- */
+.side-nav {
+  padding: 0 0 0 0 !ie;
+  /* ie7 fix */
+
+}
+.side-nav span {
+  float: none !ie;
+}
+.managed-services {
+  width: 100px !ie;
+}
+.managed-services > ul {
+  background: #0057a6\9;
+  /* ie7/8 fix */
+
+}
+/* ---- [ CTA Area ] ---- */
+.cta-area .container .columns.one-fourth {
+  margin: 0 12px 0 0 !ie;
+  /* ie7 fix */
+
+}
+/* ---- [ Help Area ] ---- */
+.help-box p {
+  position: absolute !ie;
+  /* ie7 fix */
+
+}
+.help-img-arrow {
+  top: 0 !ie;
+  /* ie7 fix */
+
+}
+.help-slot {
+  border: none !ie;
+}
+/* ---- [ a. Phone Number ] ---- */
+.phone-number-yellow i {
+  top: 0 !ie;
+  /* ie7 fix */
+
+}
+/* --- [ Share Social ] --- */
+.grey-area {
+  padding: 15px 8px !ie;
+  /* ie7 fix */
+
+}
+.social-buttons li {
+  width: 40px !ie;
+  /* ie7 fix */
+
+  float: left !ie;
+  /* ie7 fix */
+
+}
+.plain-area a {
+  margin: 0 20px !ie;
+  /* ie7 fix */
+
+}
+.bullets ul {
+  width: 43% !ie;
+  /* ie7 fix */
+
+}
+input,
+textarea {
+  width: 95% !ie;
+  /* ie7 fix */
+
+  border: 0 !ie;
+  /* ie7 fix */
+
+}
+select {
+  top: 10px\9;
+}
+.fancy-select {
+  height: 20px !ie;
+  width: 95% !ie;
+  margin-top: 5px !ie;
+}
+.req-info {
+  width: 75px !ie;
+}
+
+.compact .control-group {
+  width: 280px;
+}
+.compact .comments {
+  width: 100% !ie;
+}
+.compact .control-group.comments {
+height: 120px;
+}
+
+.clearfix {
+  clear:both;
+}
+
+#reason-cont{
+	padding:5px;	
+}

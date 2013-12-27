@@ -1,0 +1,118 @@
+/* CSS Document */
+/* --------------------------------------------
+ * Font Face Family
+ * Lato - Black | Bold | Regular
+ * --------------------------------------------
+ */
+@font-face {
+  font-family: 'latoblack';
+  src: url('../fonts/lato-bla-webfont.eot');
+  src: url('../fonts/lato-bla-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-bla-webfont.woff') format('woff'), url('../fonts/lato-bla-webfont.ttf') format('truetype'), url('../fonts/lato-bla-webfont.svg#latoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latobold';
+  src: url('../fonts/lato-bol-webfont.eot');
+  src: url('../fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-bol-webfont.woff') format('woff'), url('../fonts/lato-bol-webfont.ttf') format('truetype'), url('../fonts/lato-bol-webfont.svg#latobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latoregular';
+  src: url('../fonts/lato-reg-webfont.eot');
+  src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-reg-webfont.woff') format('woff'), url('../fonts/lato-reg-webfont.ttf') format('truetype'), url('../fonts/lato-reg-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: '';
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* --- [ Colors ] ---- */
+.color-scheme > span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 10px 0;
+}
+pre {
+  padding: 10px;
+}
+.color-1 {
+  background: #0057a6;
+}
+.color-2 {
+  background: #91b2dc;
+}
+.color-3 {
+  background: #6a96d0;
+}
+.color-4 {
+  background: #003f7b;
+}
+.color-5 {
+  background: #085aaa;
+}
+.color-6 {
+  background: #ffaf00;
+}
+.color-7 {
+  background: #feb636;
+}
+.color-8 {
+  background: #e59d00;
+}
+.color-9 {
+  background: #ffffff;
+}
+.color-10 {
+  background: #f8f9f9;
+}
+.color-11 {
+  background: #f2f2f2;
+}
+.color-12 {
+  background: #e4e5e6;
+}
+.color-13 {
+  background: #999999;
+}
+.color-14 {
+  background: #666666;
+}
+.color-15 {
+  background: #333333;
+}
+.color-16 {
+  background: #62d49a;
+}
+.color-17 {
+  background: #ffe55f;
+}
+.color-18 {
+  background: #d46262;
+}
+.color-19 {
+  background: #0057a6;
+}
